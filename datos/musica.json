@@ -1,8 +1,8 @@
 [
     {
-        "id": "1",
+        "id": "23456",
         "titulo": "musica1",
-        "artista": "artista1",
+        "creador": "artista123",
         "genero": "epica",
         "valoracion": "4"
     }

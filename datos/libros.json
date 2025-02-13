@@ -1,9 +1,9 @@
 [
     {
-        "id": "1",
+        "id": "wer12",
         "titulo": "Paradiso",
-        "autor": "Dante Alighieri",
-        "genero": "epica",
-        "valoracion": "4"
+        "creador": "Dante Alighieri",
+        "genero": "epico",
+        "valoracion": "5"
     }
 ]

@@ -1,11 +1,17 @@
 from importaciones import *
 
-def menu():
+coleccion = {
+    "libros" : [],
+    "peliculas" : [],
+    "musica" : []
+  }
+def menu(coleccion):
   while (True):
       try:
           match menuPrincipal():
             case "1": #añadir nuevo elemento
-                añadir()
+                coleccion = añadir(coleccion)
+                print(coleccion)
             case "2":#ver todos los elementos
                 verTodos()
             case "3":#buscar elementos, ya sea por titulo, autoro genero
@@ -17,7 +23,7 @@ def menu():
             case "6":#ver elementos por categoria
                 verPorCategoria()
             case "7":
-                coleccion()
+                coleccion = coleccionManejo(coleccion)
             case "8": #salir del programa
                 print("Saliendo...")
                 break
@@ -28,7 +34,7 @@ def menu():
               print(f"Error: {e}. Selecciona una opción correcta.")
               input("Presiona Enter para continuar...")  
 
-menu()
+menu(coleccion)
 
 
 

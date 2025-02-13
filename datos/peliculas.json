@@ -1,8 +1,8 @@
 [
     {
-        "id": "1",
-        "titulo": "pelicula1",
-        "director": "director1",
+        "id": "12345",
+        "titulo": "peli",
+        "creador": "director1",
         "genero": "epica",
         "valoracion": "4"
     }
